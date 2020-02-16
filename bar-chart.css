@@ -1,0 +1,23 @@
+:root {
+    --barHeight: 40;
+}
+
+body {
+    display: block;
+}
+
+#bars {
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar {
+    width: 40px;
+    background-color: olive;
+    border: 1px solid black;
+    height: calc(var(--barHeight)*1px);
+}
+
+.bar:hover {
+    opacity: 70%;
+}
